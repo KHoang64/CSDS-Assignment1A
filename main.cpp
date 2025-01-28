@@ -1,11 +1,15 @@
 #include <iostream>
+#include "Stack.hpp"
+// Include the Stack.hpp header file.
+// Create an instance of the Stack class.
+// Compile without any errors, but it wouldn't do much since no stack operations are defined yet.
+int main()
+{
+    // Create a stack instance
+    Stack myStack;
 
-int main() {
-    int fixedArray[6] = {1, 2, 3, 4, 5, 6};
-
-    for(int i = 0; i < 6; ++i) {
-        std::cout << fixedArray[i] << " ";
-    }
+    // Just a basic confirmation message
+    std::cout << "Stack has been initialized." << std::endl;
 
     return 0;
 }
